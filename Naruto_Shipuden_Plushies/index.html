@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="sasuke">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cute Beast Party - Naruto Vol. 1 | EAKI / Top Toy</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="chakra-seal-bg" aria-hidden="true">
+    <svg viewBox="0 0 200 200" xmlns="https://www.pngwing.com/pt/search?q=invoca%C3%A7%C3%A3o">
+      <circle cx="100" cy="100" r="95" fill="none" stroke="currentColor" stroke-width="1"/>
+      <circle cx="100" cy="100" r="70" fill="none" stroke="currentColor" stroke-width="1"/>
+      <path d="M100 5 A95 95 0 0 1 195 100 L100 100 Z" fill="currentColor" opacity="0.08"/>
+      <path d="M100 195 A95 95 0 0 1 5 100 L100 100 Z" fill="currentColor" opacity="0.08"/>
+    </svg>
+  </div>
+
+  <header class="site-header">
+    <p class="eyebrow">EAKI × Top Toy apresentam</p>
+    <h1 class="site-title">
+      <span class="title-line-1">Cute Beast Party</span>
+      <span class="title-line-2">Naruto Shippuuden — Vol. 1</span>
+    </h1>
+    <p class="site-subtitle">Selo de invocação de pelúcias. Cada rolagem revela um novo companheiro shinobi.</p>
+  </header>
+
+  <main>
+
+    <section class="hero" id="hero">
+
+      <div class="plush-stage">
+        <div class="rarity-badge" id="rarity-badge">Comum</div>
+
+        <div class="plush-capsule" id="plush-capsule">
+          <img
+            id="plush-image"
+            class="plush-image"
+            src="images/placeholder-sasuke.png"
+            alt="Pelúcia de Sasuke Uchiha vestindo a fantasia da cobra Aoda"
+          >
+
+          <div class="rare-aura" id="rare-aura" aria-hidden="true"></div>
+        </div>
+
+
+        <button id="summon-btn" class="summon-button" type="button">
+          <span class="btn-label">Invocar Pelúcia</span>
+          <span class="btn-shine" aria-hidden="true"></span>
+        </button>
+        <p class="odds-note">7 pelúcias na coleção · Itachi Uchiha (Susanoo/Karasu) — item raro: 5% de chance</p>
+      </div>
+
+      <div class="info-panel">
+        <h2 class="plush-name" id="plush-name">Sasuke Uchiha</h2>
+        <p class="plush-costume" id="plush-costume">Fantasia: Cobra Aoda</p>
+
+        <div class="info-tabs" role="tablist">
+          <button class="tab-btn active" data-tab="historia" role="tab" aria-selected="true">História</button>
+          <button class="tab-btn" data-tab="papel" role="tab" aria-selected="false">Papel no Anime</button>
+          <button class="tab-btn" data-tab="fantasia" role="tab" aria-selected="false">Detalhes da Pelúcia</button>
+        </div>
+
+        <div class="info-content">
+          <p class="tab-panel active" data-panel="historia" id="text-historia">
+          </p>
+          <p class="tab-panel" data-panel="papel" id="text-papel"></p>
+          <p class="tab-panel" data-panel="fantasia" id="text-fantasia"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="collection-strip" aria-label="Personagens da coleção">
+      <h3 class="collection-title">Coleção Completa — Vol. 1</h3>
+      <ul class="collection-list" id="collection-list">
+  
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Cute Beast Party Plush Mascot Vol. 1 — Naruto Shippuuden. Produzido por EAKI / Top Toy.</p>
+    <p class="footer-note">Site de fã não-oficial. Naruto Shippuuden © Masashi Kishimoto / Shueisha / TV Tokyo.</p>
+  </footer>
+  <audio id="sfx-click" src="assets/audio/click.mp3" preload="auto"></audio>
+  <audio id="sfx-victory" src="assets/audio/victory.mp3" preload="auto"></audio>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
